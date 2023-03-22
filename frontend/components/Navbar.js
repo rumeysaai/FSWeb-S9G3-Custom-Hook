@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = (props) => {
   const toggleMode = e => {
     e.preventDefault();
-    props.setGeceModu(!props.geceModu);
+    props.modeChangeHandler(!props.geceModu);
   };
 
   return (
